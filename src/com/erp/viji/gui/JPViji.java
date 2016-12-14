@@ -53,7 +53,7 @@ public class JPViji extends javax.swing.JPanel {
         JPCines.setLayout(JPCinesLayout);
         JPCinesLayout.setHorizontalGroup(
             JPCinesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPCinesLayout.setVerticalGroup(
             JPCinesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -68,7 +68,7 @@ public class JPViji extends javax.swing.JPanel {
         JPClientes.setLayout(JPClientesLayout);
         JPClientesLayout.setHorizontalGroup(
             JPClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPClientesLayout.setVerticalGroup(
             JPClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -83,7 +83,7 @@ public class JPViji extends javax.swing.JPanel {
         JPProveedores.setLayout(JPProveedoresLayout);
         JPProveedoresLayout.setHorizontalGroup(
             JPProveedoresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPProveedoresLayout.setVerticalGroup(
             JPProveedoresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -98,7 +98,7 @@ public class JPViji extends javax.swing.JPanel {
         JPEmpleados.setLayout(JPEmpleadosLayout);
         JPEmpleadosLayout.setHorizontalGroup(
             JPEmpleadosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPEmpleadosLayout.setVerticalGroup(
             JPEmpleadosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -113,7 +113,7 @@ public class JPViji extends javax.swing.JPanel {
         JPProductos.setLayout(JPProductosLayout);
         JPProductosLayout.setHorizontalGroup(
             JPProductosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPProductosLayout.setVerticalGroup(
             JPProductosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -128,7 +128,7 @@ public class JPViji extends javax.swing.JPanel {
         JPReservas.setLayout(JPReservasLayout);
         JPReservasLayout.setHorizontalGroup(
             JPReservasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPReservasLayout.setVerticalGroup(
             JPReservasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -143,7 +143,7 @@ public class JPViji extends javax.swing.JPanel {
         JPPeliculas.setLayout(JPPeliculasLayout);
         JPPeliculasLayout.setHorizontalGroup(
             JPPeliculasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPPeliculasLayout.setVerticalGroup(
             JPPeliculasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -158,7 +158,7 @@ public class JPViji extends javax.swing.JPanel {
         JPSesiones.setLayout(JPSesionesLayout);
         JPSesionesLayout.setHorizontalGroup(
             JPSesionesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPSesionesLayout.setVerticalGroup(
             JPSesionesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -173,7 +173,7 @@ public class JPViji extends javax.swing.JPanel {
         JPEntradas.setLayout(JPEntradasLayout);
         JPEntradasLayout.setHorizontalGroup(
             JPEntradasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPEntradasLayout.setVerticalGroup(
             JPEntradasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -188,7 +188,7 @@ public class JPViji extends javax.swing.JPanel {
         JPUsuarios.setLayout(JPUsuariosLayout);
         JPUsuariosLayout.setHorizontalGroup(
             JPUsuariosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPUsuariosLayout.setVerticalGroup(
             JPUsuariosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -203,7 +203,7 @@ public class JPViji extends javax.swing.JPanel {
         JPPedidos.setLayout(JPPedidosLayout);
         JPPedidosLayout.setHorizontalGroup(
             JPPedidosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
+            .addGap(0, 480, Short.MAX_VALUE)
         );
         JPPedidosLayout.setVerticalGroup(
             JPPedidosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -213,7 +213,7 @@ public class JPViji extends javax.swing.JPanel {
         jTabbedPane1.addTab("Pedidos", JPPedidos);
 
         add(jTabbedPane1);
-        jTabbedPane1.setBounds(0, 128, 550, 340);
+        jTabbedPane1.setBounds(0, 128, 570, 340);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/erp/viji/resources/viji 100x100.png"))); // NOI18N
         add(jLabel2);

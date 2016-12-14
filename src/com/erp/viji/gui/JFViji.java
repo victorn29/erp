@@ -16,15 +16,15 @@ import javax.swing.ImageIcon;
 public class JFViji extends javax.swing.JFrame {
 
     //Instancia del JPanel
-    JPViji jpv = new JPViji();
+    JPLogin jpl = new JPLogin();
     
     /**
      * Creates new form JFViji
      */
     public JFViji() {
         initComponents();//Definimos las dimensiones del panel, lo agregamos y lo ponemos como visible
-        this.setBounds(100, 100, 600, 500);
-        this.getContentPane().add(jpv);
+        this.setBounds(100, 100, 500, 365);
+        this.getContentPane().add(jpl);
         this.setVisible(true);
         this.setTitle("Viji");
         //Establecemos que la ventana se abra en el centro de la pantalla
