@@ -23,7 +23,7 @@ public class JFViji extends javax.swing.JFrame {
      */
     public JFViji() {
         initComponents();//Definimos las dimensiones del panel, lo agregamos y lo ponemos como visible
-        this.setBounds(100, 100, 500, 365);
+        this.setBounds(100, 100, 500, 400);
         this.getContentPane().add(jpl);
         this.setVisible(true);
         this.setTitle("Viji");
