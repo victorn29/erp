@@ -5,6 +5,12 @@
  */
 package com.erp.viji.gui;
 
+import com.erp.viji.util.GestorBBDD;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Javier
@@ -117,9 +123,16 @@ public class JPLogin extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbIniciarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbIniciarSesionActionPerformed
-        JFViji jff = new JFViji();
-        JPViji jpv = new JPViji();
-        jff.cambiarPantalla(jpv);
+//        JFViji jff = new JFViji();
+//        JPViji jpv = new JPViji();
+//        jff.cambiarPantalla(jpv);
+        GestorBBDD gestor = new GestorBBDD();
+        try {
+            gestor.conectar();
+        } catch (ClassNotFoundException | SQLException ex) {
+            Logger.getLogger(JPLogin.class.getName()).log(Level.SEVERE, null, ex);
+            JOptionPane.showMessageDialog(null, "Error al conectar con la base de datos");
+        }
     }//GEN-LAST:event_jbIniciarSesionActionPerformed
 
 
