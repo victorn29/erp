@@ -32,4 +32,16 @@ public class GestorBBDD {
         c = DriverManager.getConnection(servidor, user, pass);
         System.out.println("Conexión establecida");
     }
+    
+     public void consulta() throws SQLException {
+        String query = "select * from peliculas";
+        pst = c.prepareStatement(query);
+        rs = pst.executeQuery();
+
+        while (rs.next()) {
+            System.out.println(rs.getString("nombre"));
+        }
+
+        pst.close();
+    }
 }

@@ -42,7 +42,6 @@ public class JPViji extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 204));
-        setLayout(null);
 
         jTabbedPane1.setBackground(new java.awt.Color(0, 153, 204));
         jTabbedPane1.setTabPlacement(javax.swing.JTabbedPane.LEFT);
@@ -212,16 +211,32 @@ public class JPViji extends javax.swing.JPanel {
 
         jTabbedPane1.addTab("Pedidos", JPPedidos);
 
-        add(jTabbedPane1);
-        jTabbedPane1.setBounds(0, 128, 570, 340);
-
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/erp/viji/resources/viji 100x100.png"))); // NOI18N
-        add(jLabel2);
-        jLabel2.setBounds(80, 70, 110, 50);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/erp/viji/resources/palomitas - 100x100.png"))); // NOI18N
-        add(jLabel1);
-        jLabel1.setBounds(0, 10, 100, 100);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel1)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(80, 80, 80)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(8, 8, 8)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
     }// </editor-fold>//GEN-END:initComponents
 
 

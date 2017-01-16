@@ -16,21 +16,25 @@ import javax.swing.JPanel;
  */
 public class JFViji extends javax.swing.JFrame {
 
-    //Instancia del JPanel
     JPLogin jpl = new JPLogin();
 
     /**
      * Creates new form JFViji
      */
     public JFViji() {
-        initComponents();//Definimos las dimensiones del panel, lo agregamos y lo ponemos como visible
+        initComponents();
         this.setBounds(100, 100, 500, 400);
         this.getContentPane().add(jpl);
         this.setVisible(true);
-        this.setTitle("Viji");
-        //Establecemos que la ventana se abra en el centro de la pantalla
-        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-        this.setLocation(dim.width / 2 - this.getSize().width / 2, dim.height / 2 - this.getSize().height / 2);
+        this.setTitle("VIJI");
+    }
+
+    public void cambiarPantalla(JPanel panel) {
+        this.setContentPane(panel);
+        this.setVisible(true);
+        this.setTitle("Panel de control");
+        this.pack();
+        this.setExtendedState(this.getExtendedState() | this.MAXIMIZED_BOTH);
     }
 
     /**
@@ -82,14 +86,6 @@ public class JFViji extends javax.swing.JFrame {
             }
         });
     }
-
-    public void cambiarPantalla(JPanel panel) {
-        this.setBounds(450, 100, 500, 500);
-        this.setContentPane(panel);
-        this.setVisible(true);
-        this.setTitle("VIJI");
-    }
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
